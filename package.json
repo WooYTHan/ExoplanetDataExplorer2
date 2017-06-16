@@ -9,7 +9,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WooYTHan/ExoplanetDataExplorer.git"
+    "url": "git+https://github.com/WooYTHan/ExoplanetDataExplorer2.git"
   },
   "keywords": [
     "d3",
@@ -17,11 +17,10 @@
   ],
   "author": "YUTING HAN",
   "bugs": {
-    "url": "https://github.com/WooYTHan/ExoplanetDataExplorer/issues"
+    "url": "https://github.com/WooYTHan/ExoplanetDataExplorer2/issues"
   },
   "dependencies": {
     "connect": "^3.6.2",
-    "d3": "^4.9.1",
     "express": "^4.15.3",
     "http-server": "^0.10.0",
     "serve-static": "^1.12.3"

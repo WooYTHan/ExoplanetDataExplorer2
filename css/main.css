@@ -17,7 +17,7 @@ h5 {
 }
 .line {
     fill: none;
-    stroke: rgba(252, 252, 252);
+    stroke: white;
     stroke-width: 2px;
 }
 .axis text {
