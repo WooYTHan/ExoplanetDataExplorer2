@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Exoplanet Data Explorer</title>
+            <link href="css/main.css" rel="stylesheet">
+            <link href="css/bootstrap.css" rel="stylesheet">
+            <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        </head>
+        <body>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <h4><i class="fa fa-globe"></i> Exoplanet Data Explorer</h4>
+                    </div>
+                </div>
+            </nav>
+            </div>
+            <div class="content">
+                <div class="col-lg-12" id="selectBar">
+                    <div class="select1">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="fa fa-bar-chart" ></i></a>
+                                    X-Axis:
+                                    <select class="select-style" id="xSelectNumber"></select>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="panel-body xDistribution"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select2">
+                        <div class="panel-group" id="accordion2">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapse2"><i class="fa fa-bar-chart" ></i></a>
+                                    Y-Axis:
+                                    <select class="select-style" id="ySelectNumber"></select>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="panel-body yDistribution"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10" >
+                        <div class="panel panel-default">
+                            <div class="panel-heading" id="panel-title">P. Min Mass (EU) vs P. Min Mass (EU)</div>
+                            <div class="panel-body map">Select an area on the chart to zoom in, double click to zoom out</div>
+                        </div>
+                    </div>
+                </div>
+                <script src="js/jquery.js"></script>
+                <script src="js/main.js"></script>
+                <script src="js/d3/d3.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                </body>
+</html>

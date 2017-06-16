@@ -1,0 +1,32 @@
+{
+  "name": "ExoplanetDataExplorer",
+  "version": "1.0.0",
+  "description": "Data Visualization on Exoplanet Data",
+  "engines": {
+    "node": "8.1.2"
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WooYTHan/ExoplanetDataExplorer.git"
+  },
+  "keywords": [
+    "d3",
+    "charts"
+  ],
+  "author": "YUTING HAN",
+  "bugs": {
+    "url": "https://github.com/WooYTHan/ExoplanetDataExplorer/issues"
+  },
+  "dependencies": {
+    "connect": "^3.6.2",
+    "d3": "^4.9.1",
+    "express": "^4.15.3",
+    "http-server": "^0.10.0",
+    "serve-static": "^1.12.3"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8000"
+  }
+}
